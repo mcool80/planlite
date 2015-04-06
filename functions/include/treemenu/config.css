@@ -1,0 +1,17 @@
+form {                                                             /* Form    */
+  margin : 0px 0px 3px 0px;          padding : 0px 0px 0px 0px; }
+
+.Config {                                                          /* General */
+  font-family     : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size       : 11px;            color           : #000000;
+  white-space     : nowrap;          background-color: #BBBB99; }
+
+.Config input, Config select, .Config img {                        /* Options */
+  margin  : 0px 0px 0px 0px;         border          : 0px;
+  padding : 0px 0px 0px 0px;         vertical-align  : middle;  }
+
+.Config a { color : #000000;         text-decoration : none;    }  /* Links   */
+
+.Config .ConfigText, .Config .Text { padding-left    : 2px;     }  /* Text    */
+
+.Config .ConfigText:hover          { color           : #0000FF; }  /* Hovered */

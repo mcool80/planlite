@@ -1,0 +1,27 @@
+body   { background-color : #BBBB99; }                 /* Hinterrundfarbe --- */
+
+h1     { font-size        : xx-large;                  /* Ueberschrift 1 ---- */
+         font-weight      : bold
+         color            : #000000;
+         text-align       : justify;
+         padding          : 0px   0px   0px   0px;
+         margin           : 0.4cm 0.1cm 0.0cm 0.1cm; }
+
+h2     { font-size        : x-large;                   /* Ueberschrift 2 ---- */
+         font-weight      : bold
+         color            : #000000;
+         text-align       : justify;
+         padding          : 0px   0px   0px   0px;
+         margin           : 0.4cm 0.1cm 0.0cm 0.1cm; }
+
+*.noborder {                                           /* NoBorder ---------- */
+         color            : #000000;
+         border-style     : none;
+         border-width     : 4px 4px 4px 4px ;
+         vertical-align   : middle; }
+
+*.bordered {                                           /* Bordered ---------- */
+         color            : #000000;
+         border-style     : double;
+         border-width     : 4px 4px 4px 4px;
+         vertical-align   : middle; }

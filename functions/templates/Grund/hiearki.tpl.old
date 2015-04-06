@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>PlanLite</title>
+    <link rel="stylesheet" href="Include/planlite.css" type="text/css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" width="800" height="470" align="center">
+<tr>
+    <td valign="top">
+
+        
+    
+        <!-- Sidans huvudinnehåll -->
+        <table width="640" border="1" cellspacing="0" cellpadding="0" >
+            <tr>
+                <td class="table_upperleftcorner_header1"></td>
+                <td class="table_uppermiddle_header1" nowrap><p class="header">Hiearki</p></td>
+                <td class="table_upperend_header1"></td>
+                <td class="table_uppermiddle" width="427"></td>
+                <td class="table_upperrightcorner_header1"></td>
+            </tr>
+            <tr>
+                <td class="table_leftmiddle"></td>
+                <td height="280" colspan="3"  bgcolor="#FFFFFF" valign="top">
+                    <p>
+{foreach name=outer item=item from=$hiearki}
+	{foreach name=outer item=image from=$item.images}<img src="{$image}">{/foreach}
+	<a href="sida.php?page=hiearki&action=showunit&unitid={$item.unitid}">{$item.unitname}</a><br/>
+{/foreach}
+                    </p>
+                </td>
+                <td class="table_rightmiddle"></td>
+            </tr>
+            <tr>
+                <td class="table_lowerleftcorner"></td>
+                <td class="table_lowermiddle" colspan="3"></td>
+                <td class="table_lowerrightcorner"></td>
+            </tr>
+        </table>
+</body>
+</html>

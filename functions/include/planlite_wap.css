@@ -1,0 +1,69 @@
+﻿body {
+    background-color: #FDFDFD;
+    background-image: url(../Images/background.jpg);
+	margin-left:5px;
+	margin-top:5px;	
+    margin-bottom:0px;
+	margin-right:0px;
+    font-family: Trebuchet MS, Verdana, Arial, Helvetica;
+    color: #000000;
+    font-size: 11px;
+}
+
+p.header {
+    margin-top:5px;
+    margin-bottom:0px
+}
+
+p {
+margin-top: 10px
+}
+
+p.menu {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+a:link {
+  text-decoration: none;
+  color: #336699
+  }
+
+a:visited {
+  text-decoration: none;
+  color: #336699
+  }
+
+a:active {
+  text-decoration: none;
+  color: #336699
+  }
+
+a:hover {
+    color:#4E6774;
+    text-decoration:underline
+  }
+    
+a.menu:hover {
+    color: #FFFFFF;
+    background-color:#4E6774;
+    text-decoration:none
+  }
+
+.nomargin {
+    margin:0px
+}
+
+.form {
+    font-family:Trebuchet MS, Verdana, Arial, Helvetica;
+    font-size:11px;
+}
+
+.button {
+    vertical-align:middle
+}
+
+.errortext {
+	color:#FF0000;
+	font-weight:bold;
+}
